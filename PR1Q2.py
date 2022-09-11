@@ -1,0 +1,7 @@
+var1=int(input("Enter 1st number"))
+var2=int(input("Enter 2nd number"))
+print("Addition of",var1,"and",var2,"is",var1+var2)
+print("Subtraction of",var1,"and",var2,"is",var1-var2)
+print("Multiplication of",var1,"and",var2,"is",var1*var2)
+print("Division of",var1,"and",var2,"is",var1/var2)
+print("Modulus of",var1,"and",var2,"is",var1%var2)
