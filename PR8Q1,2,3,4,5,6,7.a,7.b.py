@@ -45,4 +45,29 @@ a!=b
 a==b
 
 #Q4
-#Demonstarte 
+#Demonstarte bitwise operators
+x=2 #0010
+y=3 #0011
+print(x&y)#0010
+ #precedence of operators 
+  x=20
+  y=30
+  z=4
+  a=2
+  s=(x+y)*z-a
+  print("After evaluation,the result is:",s)
+ #associativity of operator
+#left to right 
+x=3
+y=6
+z=9
+s=y**x//9
+print(s)
+s=y**(x//z)
+
+#right to left
+x=2
+y=3
+z=2
+s=x**y**z
+print(s)
